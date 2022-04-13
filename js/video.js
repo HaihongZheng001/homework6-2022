@@ -7,7 +7,7 @@ window.addEventListener("load", function() {
 
 // Play button
 document.querySelector("#play").addEventListener("click", function() {
-	console.log("Play video");
+	console.log("Play Video");
 	video.play();
 	document.querySelector("#volume").innerHTML = video.volume*100 + "%";
 });
@@ -15,7 +15,7 @@ document.querySelector("#play").addEventListener("click", function() {
 
 // Pause button
 document.querySelector("#pause").addEventListener("click", function(){
-	console.log("Pause video");
+	console.log("Pause Video");
 	video.pause();
 });
 
